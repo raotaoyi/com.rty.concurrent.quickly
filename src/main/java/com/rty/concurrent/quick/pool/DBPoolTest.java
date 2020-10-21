@@ -7,7 +7,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- *
+ * 线程之间的协助，展示wait();和notifyAll();的用法，
  */
 public class DBPoolTest {
     static DBPool pool = new DBPool(10);

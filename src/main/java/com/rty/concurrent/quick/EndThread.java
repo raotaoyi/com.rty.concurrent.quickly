@@ -1,7 +1,8 @@
 package com.rty.concurrent.quick;
 
 /**
- * Interrupt:通知线程中断(打一个标致位)，线程可以不停止，不理会，线程是协助式，不是抢占式，isInterrupted检查标致位，
+ * interrupt()的用法
+ * 通知线程中断(打一个标致位)，线程可以不停止，不理会，线程是协助式，不是抢占式，isInterrupted检查标致位，
  * 静态的isInterrupted:检查中断标志位，并且修改标志位true为false
  *
  * 不推荐自己创建的boolean的中断标识符
